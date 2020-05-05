@@ -1,4 +1,4 @@
-#! /bin/bash/ -x
+#! /bin/bash/ 
 read -p "enter a pincode" pincode
 
 if [[ $pincode =~ ^[0-9]{6}$ ]]
